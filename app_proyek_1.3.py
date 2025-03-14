@@ -17,7 +17,7 @@ st.title('Dashboard Analisis Penyewaan Sepeda')
 
 with st.sidebar:
     #Menambahkan logo perusahaan
-    st.image('https://github.com/TrimoA/Dataset-Analisis-Data/raw/main/Sepeda.png')
+    st.image('https://github.com/TrimoA/Dataset-Analisis-Data/raw/main/Logo sepeda.png')
     #Pilih rentang tanggal
     min_date = day_df['dteday'].min()
     max_date = day_df['dteday'].max()
